@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Otakusaikou - Point Cloud Demo</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="https://github.com/otakusaikou">About</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="mailto:otakuzyouto@gmail.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Content -->
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Point Cloud Demo
+                    </h1>
+                    <h4>Here comes some demonstrations of the result from my master thesis, using <a href="http://potree.org/">potree</a> - a web based point cloud viewer</h4>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-6 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="img/NTU_Admin_before.png" alt="">
+                    </a>
+                    <h3>
+                        <a href="ptCloud/NTUAdmin_rawAll/NTUAdmin_rawAll.html">NTU Admin raw RGBI</a>
+                    </h3>
+                    <p>Point cloud of NTU Admin building. Captured by ground LiDAR scanner Z+F IMAGER 5010. Data contains RGB and intensity information.</p>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="img/NTU_Admin_after.png" alt="">
+                    </a>
+                    <h3>
+                        <a href="ptCloud/NTUAdmin_all/NTUAdmin_all.html">NTU Admin RGB</a>
+                    </h3>
+                    <p>Result of my master thesis. This data was a conbination of LiDAR and photogrammetry techniques. By integration of LiDAR 3D coordinates and high resolution photos contain rich optical informaiton, we significantly improved the spatial and color quality of the 3D point cloud.</p>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="img/CERB_before.png" alt="">
+                    </a>
+                    <h3>
+                        <a href="ptCloud/CERB_RGB/CERB_RGB.html">NTU CERB RGB</a>
+                    </h3>
+                    <p>Point cloud of NTU CERB. Data generated using optical photos taken with drone flying around the building. 3D point cloud generated using resulting aerial photos and commertial software - Pix4D.</p>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="img/CERB_after.png" alt="">
+                    </a>
+                    <h3>
+                        <a href="ptCloud/CERB_IR/CERB_IR.html">NTU CERB IR</a>
+                    </h3>
+                    <p>IR painted point cloud. Processed using XYZ-RGB point cloud and IR photos with camera exposure calculated by space resection approach.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        <footer>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; Otakusaikou</p>
+                    <p>Powered by <a href="https://bit.ly/2wOPmpC">quackit.com</a> & <a href="https://github.com/">Github</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
